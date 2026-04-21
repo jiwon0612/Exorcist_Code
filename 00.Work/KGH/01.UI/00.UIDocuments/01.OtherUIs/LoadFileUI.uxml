@@ -1,0 +1,43 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/00.Work/KGH/01.UI/02.StyleSheet/LoadFileUI.uss?fileID=7433441132597879392&amp;guid=11040e505b1963d42b5a66f4bdf95266&amp;type=3#LoadFileUI" />
+    <Style src="project://database/Assets/00.Work/KGH/01.UI/02.StyleSheet/SettingStyle.uss?fileID=7433441132597879392&amp;guid=86a0ec776126cfb4eb1f1a66862de576&amp;type=3#SettingStyle" />
+    <ui:VisualElement name="Container" picking-mode="Ignore" class="settingContent" style="flex-grow: 1; padding-top: 10%; padding-right: 10%; padding-bottom: 10%; padding-left: 10%;">
+        <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="Slot" picking-mode="Ignore" class="slot" style="flex-direction: row;">
+            <ui:VisualElement name="ClearProgress" picking-mode="Ignore" class="part">
+                <ui:VisualElement name="Boss" picking-mode="Ignore" class="boss" style="flex-grow: 1; background-image: none;" />
+                <ui:VisualElement name="Boss" picking-mode="Ignore" class="boss" style="flex-grow: 1; background-image: none;" />
+                <ui:VisualElement name="Boss" picking-mode="Ignore" class="boss" style="flex-grow: 1; background-image: none;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Descriptions" picking-mode="Ignore" class="part" style="flex-grow: 1; flex-direction: column; justify-content: center;">
+                <ui:Label tabindex="-1" text="슬롯 1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="SlotText" picking-mode="Ignore" class="text slotText" />
+                <ui:Label tabindex="-1" text="0000-00-00" parse-escape-sequences="true" display-tooltip-when-elided="true" name="LastDateText" picking-mode="Ignore" class="timeText" />
+                <ui:Label tabindex="-1" text="0:00:00" parse-escape-sequences="true" display-tooltip-when-elided="true" name="PlayTimeText" picking-mode="Ignore" class="timeText" />
+            </ui:VisualElement>
+        </ui:Button>
+        <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="Slot" picking-mode="Ignore" class="slot" style="flex-direction: row;">
+            <ui:VisualElement name="ClearProgress" picking-mode="Ignore" class="part">
+                <ui:VisualElement name="Boss" picking-mode="Ignore" class="boss" style="flex-grow: 1; background-image: none;" />
+                <ui:VisualElement name="Boss" picking-mode="Ignore" class="boss" style="flex-grow: 1; background-image: none;" />
+                <ui:VisualElement name="Boss" picking-mode="Ignore" class="boss" style="flex-grow: 1; background-image: none;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Descriptions" picking-mode="Ignore" class="part" style="flex-grow: 1; flex-direction: column; justify-content: center;">
+                <ui:Label tabindex="-1" text="슬롯 2" parse-escape-sequences="true" display-tooltip-when-elided="true" name="SlotText" picking-mode="Ignore" class="text slotText" />
+                <ui:Label tabindex="-1" text="0000-00-00" parse-escape-sequences="true" display-tooltip-when-elided="true" name="LastDateText" picking-mode="Ignore" class="timeText" />
+                <ui:Label tabindex="-1" text="0:00:00" parse-escape-sequences="true" display-tooltip-when-elided="true" name="PlayTimeText" picking-mode="Ignore" class="timeText" />
+            </ui:VisualElement>
+        </ui:Button>
+        <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="Slot" picking-mode="Ignore" class="slot" style="flex-direction: row;">
+            <ui:VisualElement name="ClearProgress" picking-mode="Ignore" class="part">
+                <ui:VisualElement name="Boss" picking-mode="Ignore" class="boss" style="flex-grow: 1; background-image: none;" />
+                <ui:VisualElement name="Boss" picking-mode="Ignore" class="boss" style="flex-grow: 1; background-image: none;" />
+                <ui:VisualElement name="Boss" picking-mode="Ignore" class="boss" style="flex-grow: 1; background-image: none;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Descriptions" picking-mode="Ignore" class="part" style="flex-grow: 1; flex-direction: column; justify-content: center;">
+                <ui:Label tabindex="-1" text="슬롯 3" parse-escape-sequences="true" display-tooltip-when-elided="true" name="SlotText" picking-mode="Ignore" class="text slotText" />
+                <ui:Label tabindex="-1" text="0000-00-00" parse-escape-sequences="true" display-tooltip-when-elided="true" name="LastDateText" picking-mode="Ignore" class="timeText" />
+                <ui:Label tabindex="-1" text="0:00:00" parse-escape-sequences="true" display-tooltip-when-elided="true" name="PlayTimeText" picking-mode="Ignore" class="timeText" />
+            </ui:VisualElement>
+        </ui:Button>
+        <ui:Button text="뒤로가기" parse-escape-sequences="true" display-tooltip-when-elided="true" name="BackButton" class="button" style="align-self: flex-end; right: 2.5%;" />
+    </ui:VisualElement>
+</ui:UXML>

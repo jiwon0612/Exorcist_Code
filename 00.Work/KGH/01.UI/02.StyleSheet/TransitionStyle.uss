@@ -1,0 +1,39 @@
+.blackPart {
+    background-color: rgb(0, 0, 0);
+    flex-grow: 0;
+    width: 0;
+    transition-timing-function: ease-out-circ;
+    transition-duration: 0.5s;
+}
+
+.gredientPart {
+    width: 0;
+    flex-grow: 0;
+    background-image: url("project://database/Assets/99.SpriteAsset/UI%20-%20Ammo/FantasyUI/gradient.png?fileID=21300000&guid=b3aefff68bb573f429014e33a2ad0ba5&type=3#gradient");
+    transition-timing-function: ease-out-circ;
+    transition-duration: 0.5s;
+}
+
+.blackPart.middle {
+    width: 50%;
+    transition-timing-function: ease-in-cubic;
+    transition-duration: 0.5s;
+}
+
+.gredientPart.middle {
+    width: 50%;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-cubic;
+}
+
+.blackPart.end {
+    width: 100%;
+    transition-timing-function: ease-out-cubic;
+    transition-duration: 0.5s;
+}
+
+.gredientPart.end {
+    width: 0;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out-cubic;
+}

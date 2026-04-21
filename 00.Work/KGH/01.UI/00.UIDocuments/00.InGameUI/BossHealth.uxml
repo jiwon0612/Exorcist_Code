@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/00.Work/KGH/01.UI/02.StyleSheet/BossHealthStyle.uss?fileID=7433441132597879392&amp;guid=890b2e5e3b31fc94b9af81f091511245&amp;type=3#BossHealthStyle" />
+    <ui:VisualElement name="BossHealthContainer" picking-mode="Ignore" class="bossHealth">
+        <ui:ProgressBar value="100" name="BossHealthbar" picking-mode="Ignore" style="border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; justify-content: center; width: 100%; flex-grow: 1; margin-top: 8px; margin-bottom: 0;">
+            <ui:VisualElement name="BossHeaalthOutline" style="flex-grow: 1; position: absolute; align-self: center; background-image: url(&quot;project://database/Assets/99.SpriteAsset/UI%20-%20Ammo/FantasyUI/boss_bar%20x1.png?fileID=21300000&amp;guid=0a4e5363dacd44a4185b983f84cfe855&amp;type=3#boss_bar x1&quot;); width: 101.75%; height: 90%; justify-content: center; align-items: center; top: auto; bottom: 11%;" />
+        </ui:ProgressBar>
+        <ui:Label tabindex="-1" text="Blood King" parse-escape-sequences="true" display-tooltip-when-elided="true" name="BossTitle" picking-mode="Ignore" class="label" style="font-size: 48px;" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,59 @@
+.slot {
+    flex-grow: 1;
+    background-image: url("project://database/Assets/99.SpriteAsset/UI%20-%20Ammo/FantasyUI/Blurry_popup_light.png?fileID=21300000&guid=dc447b5eff23ce0458f622dfd9b51028&type=3#Blurry_popup_light");
+    margin-top: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    transition-timing-function: ease-out-back;
+    transition-duration: 0.5s;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: rgba(0, 0, 0, 0);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    opacity: 0.5;
+}
+
+.slot:hover {
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    margin-top: 0.5%;
+    margin-right: 0.5%;
+    margin-bottom: 0.5%;
+    margin-left: 0.5%;
+    opacity: 1;
+}
+
+.boss {
+    background-image: url("project://database/Assets/99.SpriteAsset/UI%20-%20Ammo/FantasyUI/64x32%20arc%20holder.png?fileID=21300000&guid=b6a8b343b67cc4745ad2c05d61adf6b0&type=3#64x32 arc holder");
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.part {
+    margin-right: 7.5%;
+    margin-left: 7.5%;
+    padding-top: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    flex-grow: 1;
+    flex-direction: row;
+}
+
+.slotText {
+    -unity-font: url("project://database/Assets/00.Work/KGH/02.Fonts/DOSIyagiBoldface.ttf?fileID=12800000&guid=b84b3eb4b5a650e498c6a62b52dd4f5d&type=3#DOSIyagiBoldface");
+    -unity-font-definition: initial;
+    font-size: 64px;
+    color: rgb(255, 255, 255);
+}
+
+.timeText {
+    font-size: 32px;
+    -unity-font-definition: initial;
+    -unity-font: url("project://database/Assets/00.Work/KGH/02.Fonts/DOSIyagiBoldface.ttf?fileID=12800000&guid=b84b3eb4b5a650e498c6a62b52dd4f5d&type=3#DOSIyagiBoldface");
+    color: rgb(255, 255, 255);
+}

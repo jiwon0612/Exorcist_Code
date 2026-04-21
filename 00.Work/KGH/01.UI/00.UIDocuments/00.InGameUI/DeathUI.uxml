@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/00.Work/KGH/01.UI/02.StyleSheet/DeathStyle.uss?fileID=7433441132597879392&amp;guid=8f5e23079b3da3b4ba1d2cbaea8542b8&amp;type=3#DeathStyle" />
+    <ui:VisualElement name="Contents" picking-mode="Ignore" class="content">
+        <ui:Label tabindex="-1" text="사망" parse-escape-sequences="true" display-tooltip-when-elided="true" name="DeathLabel" picking-mode="Ignore" class="deathLabel shrink" />
+        <ui:VisualElement name="ButtonPanel" picking-mode="Ignore" class="buttonPanel">
+            <ui:Button text="재도전" parse-escape-sequences="true" display-tooltip-when-elided="true" name="RetryButton" picking-mode="Ignore" class="button" />
+            <ui:Button text="로비" parse-escape-sequences="true" display-tooltip-when-elided="true" name="LobbyButton" picking-mode="Ignore" class="button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,18 @@
+.unity-progress-bar__progress {
+    background-color: rgb(236, 176, 76);
+}
+
+.unity-progress-bar__background {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.contents {
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out-cubic;
+}
+
+.contents.hide {
+    opacity: 0;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out-cubic;
+}

@@ -1,0 +1,52 @@
+.progressOutline {
+    background-image: url("project://database/Assets/99.SpriteAsset/UI%20-%20Ammo/FantasyUI/Player_HealthBar.png?fileID=21300000&guid=e1ac836ad6a55794b930446789901c8a&type=3#Player_HealthBar");
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    flex-grow: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.unity-progress-bar__progress {
+    background-color: rgb(197, 35, 35);
+}
+
+.unity-progress-bar__background {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.skill {
+    background-image: url("project://database/Assets/99.SpriteAsset/UI%20-%20Ammo/FantasyUI/Screen__10.png?fileID=21300000&guid=590d04d3a4c4f764790b18bc203ca432&type=3#Screen__10");
+    flex-grow: 1;
+    width: 10%;
+    height: 10%;
+    scale: 0.5 0.5;
+    margin-top: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+}
+
+.potion {
+    flex-grow: 0;
+    background-image: url("project://database/Assets/99.SpriteAsset/UI%20-%20Ammo/FantasyUI/potion2.png?fileID=21300000&guid=c8076f315d16d4a4f9d3b3f9051da02f&type=3#potion2");
+    -unity-background-scale-mode: scale-to-fit;
+    width: 5%;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-out-bounce;
+}
+
+.potion.down {
+    transition-timing-function: ease-out;
+    transition-duration: 0.05s;
+    translate: 0 5px;
+}

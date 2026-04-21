@@ -1,0 +1,156 @@
+.title {
+    font-size: 64px;
+    -unity-font: url("project://database/Assets/00.Work/KGH/02.Fonts/DOSMyungjo.ttf?fileID=12800000&guid=810d5c7fe15266049bbe17f1d389a915&type=3#DOSMyungjo");
+    color: rgb(255, 255, 255);
+    -unity-text-align: middle-center;
+    -unity-font-definition: initial;
+    position: relative;
+    top: 75px;
+}
+
+.settingContent {
+    flex-grow: 1;
+    background-color: rgba(0, 0, 0, 0.69);
+    opacity: 0;
+    transition-duration: 0.25s;
+    transition-property: opacity;
+}
+
+.settingContent.on {
+    opacity: 1;
+    transition-duration: 0.25s;
+}
+
+.button {
+    -unity-font: url("project://database/Assets/00.Work/KGH/02.Fonts/DOSIyagiBoldface.ttf?fileID=12800000&guid=b84b3eb4b5a650e498c6a62b52dd4f5d&type=3#DOSIyagiBoldface");
+    -unity-font-definition: initial;
+    width: 160px;
+    height: 80px;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.59);
+    background-color: rgba(0, 0, 0, 0);
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    background-image: url("project://database/Assets/99.SpriteAsset/UI%20-%20Ammo/FantasyUI/Screen__10.png?fileID=21300000&guid=590d04d3a4c4f764790b18bc203ca432&type=3#Screen__10");
+    -unity-background-image-tint-color: rgba(56, 34, 34, 0.59);
+    transition-duration: 0.5s;
+    -unity-text-align: middle-center;
+    transition-timing-function: ease-out-back;
+}
+
+.button:hover {
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out-back;
+    color: rgb(255, 255, 255);
+}
+
+.label {
+    -unity-font: url("project://database/Assets/00.Work/KGH/02.Fonts/DOSIyagiBoldface.ttf?fileID=12800000&guid=b84b3eb4b5a650e498c6a62b52dd4f5d&type=3#DOSIyagiBoldface");
+    -unity-font-definition: initial;
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    -unity-text-align: middle-right;
+    width: 80px;
+    flex-shrink: 0;
+}
+
+.slider {
+    background-image: url("project://database/Assets/99.SpriteAsset/UI%20-%20Ammo/FantasyUI/Loading_Bar%20x1.png?fileID=21300000&guid=003f1b52c4610d64da77e633bae9e5a9&type=3#Loading_Bar x1");
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.unity-base-slider__dragger {
+    background-image: url("project://database/Assets/99.SpriteAsset/UI%20-%20Ammo/FantasyUI/Slider_components3.png?fileID=21300000&guid=ec5e3b74776324346a678453d27f7c4b&type=3#Slider_components3");
+    background-color: rgba(0, 0, 0, 0);
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    width: 20px;
+    height: 40px;
+    top: -20px;
+    margin-top: 15px;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+.unity-base-slider__drag-container {
+    background-image: url("project://database/Assets/99.SpriteAsset/UI%20-%20Ammo/FantasyUI/filler%20x1.png?fileID=21300000&guid=0208a07d11c2eaf4dabef9964dcb0d71&type=3#filler x1");
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    margin-top: 8px;
+    margin-right: 8px;
+    margin-left: 8px;
+    -unity-background-image-tint-color: rgba(255, 255, 255, 0);
+    overflow: hidden;
+    background-color: rgba(255, 0, 0, 0);
+    margin-bottom: 8px;
+    justify-content: center;
+}
+
+.unity-base-slider__tracker {
+    flex-grow: 1;
+    position: relative;
+    top: 0;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    background-image: url("project://database/Assets/99.SpriteAsset/UI%20-%20Ammo/FantasyUI/filler%20x1.png?fileID=21300000&guid=0208a07d11c2eaf4dabef9964dcb0d71&type=3#filler x1");
+    background-color: rgba(0, 0, 0, 0);
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    -unity-background-image-tint-color: rgba(255, 255, 255, 0);
+    overflow: hidden;
+}
+
+.newDragger {
+    background-image: url("project://database/Assets/99.SpriteAsset/UI%20-%20Ammo/FantasyUI/Slider_components3.png?fileID=21300000&guid=ec5e3b74776324346a678453d27f7c4b&type=3#Slider_components3");
+    background-color: rgba(0, 0, 0, 0);
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    width: 20px;
+    height: 40px;
+    top: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    position: absolute;
+}
+
+.bar {
+    overflow: visible;
+    width: 592px;
+    height: 12px;
+    background-color: rgb(250, 168, 65);
+    align-self: flex-end;
+    position: absolute;
+    top: 14px;
+    justify-content: center;
+}
+
+.lastSaveTime {
+    opacity: 0;
+}
+
+.lastSaveTime.on {
+    opacity: 1;
+    transition-timing-function: ease-in-out-back;
+    transition-duration: 0.5s;
+}

@@ -1,0 +1,33 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/00.Work/KGH/01.UI/02.StyleSheet/PlayerStateUIStyle.uss?fileID=7433441132597879392&amp;guid=f1deda4951c00ac42aff0ff8976ea448&amp;type=3#PlayerStateUIStyle" />
+    <ui:VisualElement name="PlayerState" picking-mode="Ignore" style="flex-grow: 1; flex-direction: row-reverse; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; justify-content: center; align-items: stretch; align-self: stretch; height: 100%; width: 100%;">
+        <ui:VisualElement name="States" picking-mode="Ignore" style="flex-grow: 1; justify-content: center; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 9%; padding-right: 0; padding-bottom: 9%; padding-left: 0;">
+            <ui:VisualElement name="Skills" picking-mode="Ignore" style="flex-grow: 1; align-items: flex-start; flex-direction: row; margin-bottom: 1%;">
+                <ui:VisualElement name="SkillMask" picking-mode="Ignore" style="flex-grow: 1; background-color: rgba(255, 0, 0, 0); position: absolute; height: 84.5%; width: 9.5%; top: 7.5%; left: 1.5%; overflow: hidden;">
+                    <ui:VisualElement picking-mode="Ignore" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&quot;project://database/Assets/99.SpriteAsset/UI%20-%20Ammo/FantasyUI/Unlocked12.png?fileID=21300000&amp;guid=3782bae8cedf5494496a10ea2144a057&amp;type=3#Unlocked12&quot;); -unity-background-scale-mode: scale-to-fit; align-self: center; width: 62px; left: -3px; margin-top: 15%; margin-right: 15%; margin-bottom: 15%; margin-left: 15%;" />
+                    <RadialFillElement name="DashSkill" fill-color="#DAA77766" width="66" height="66" value="0" fill-direction="AntiClockwise" style="position: absolute; top: 5%;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="SkillFrame" picking-mode="Ignore" class="skill" style="flex-grow: 0; scale: 1 1; background-image: url(&quot;project://database/Assets/99.SpriteAsset/UI%20-%20Ammo/FantasyUI/Scalable%20txt%20screen%20x1.png?fileID=21300000&amp;guid=7a48c0570d9a1ef4daffc5fc6fa7f535&amp;type=3#Scalable txt screen x1&quot;); height: 85%;" />
+                <ui:VisualElement name="Potions" style="flex-grow: 1; height: 42%; flex-direction: row; margin-top: 6%; margin-left: 12%;">
+                    <ui:VisualElement name="Potion" class="potion" />
+                    <ui:VisualElement name="Potion" class="potion" />
+                    <ui:VisualElement name="Potion" class="potion" />
+                </ui:VisualElement>
+                <ui:VisualElement name="SkillMask" picking-mode="Ignore" style="flex-grow: 1; background-color: rgba(255, 0, 0, 0); position: absolute; height: 84.5%; width: 9.5%; top: 7.5%; left: 13%; overflow: hidden;">
+                    <ui:VisualElement picking-mode="Ignore" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&quot;project://database/Assets/99.SpriteAsset/UI%20-%20Ammo/FantasyUI/Unlocked5.png?fileID=21300000&amp;guid=fc506bbe6ebf8af47b01c3897af278d0&amp;type=3#Unlocked5&quot;); -unity-background-scale-mode: scale-to-fit; align-self: center; width: 62px;" />
+                    <RadialFillElement name="radial-fill-element" fill-color="#DAA77766" width="66" height="66" value="0" fill-direction="AntiClockwise" style="position: absolute; top: 5%;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="SkillFrame" picking-mode="Ignore" class="skill" style="flex-grow: 0; scale: 1 1; background-image: url(&quot;project://database/Assets/99.SpriteAsset/UI%20-%20Ammo/FantasyUI/Scalable%20txt%20screen%20x1.png?fileID=21300000&amp;guid=7a48c0570d9a1ef4daffc5fc6fa7f535&amp;type=3#Scalable txt screen x1&quot;); height: 85%; left: 11.5%; position: absolute;" />
+            </ui:VisualElement>
+            <ui:ProgressBar value="39.6" name="HPProgressBar" picking-mode="Ignore" style="top: -5px; flex-shrink: 1; width: 75%; height: 24px; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; margin-left: -4px; overflow: hidden; margin-top: 1px; margin-right: 1px; margin-bottom: 1px;">
+                <ui:VisualElement name="Outline" picking-mode="Ignore" class="progressOutline" style="position: absolute;" />
+            </ui:ProgressBar>
+        </ui:VisualElement>
+        <ui:VisualElement name="CharacterPortrait" picking-mode="Ignore" style="flex-grow: 0; -unity-background-image-tint-color: rgb(255, 255, 255); background-image: none; -unity-background-scale-mode: scale-to-fit; height: 75%; width: 125px; padding-top: 0; padding-left: 0; padding-right: 0; padding-bottom: 0; top: 10%; margin-right: 0; margin-left: 0; overflow: hidden; margin-top: 0; margin-bottom: 0;">
+            <ui:VisualElement name="ImgaeMask" picking-mode="Ignore" style="flex-grow: 1; position: absolute; height: 121px; width: 100%; top: 46px; overflow: hidden;">
+                <ui:VisualElement picking-mode="Ignore" style="flex-grow: 0; background-image: url(&quot;project://database/Assets/99.SpriteAsset/Player/Idle.png?fileID=1930185843&amp;guid=008f36e2a5ffa8a4ead61bf9d66c690d&amp;type=3#Idle_0&quot;); -unity-background-scale-mode: scale-and-crop; right: 0; top: -120px; width: 99%; height: 350%; flex-shrink: 0;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="PortraitFrame" picking-mode="Ignore" style="flex-grow: 1; -unity-background-scale-mode: scale-to-fit; background-image: url(&quot;project://database/Assets/99.SpriteAsset/UI%20-%20Ammo/FantasyUI/Player_Profile.png?fileID=21300000&amp;guid=ca4dad7149185ef43a6ccd5eb9529e2d&amp;type=3#Player_Profile&quot;);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

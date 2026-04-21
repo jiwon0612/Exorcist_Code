@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/00.Work/KGH/01.UI/02.StyleSheet/TransitionStyle.uss?fileID=7433441132597879392&amp;guid=1fa99b87dc94afa459ec5ac178b7a0c1&amp;type=3#TransitionStyle" />
+    <ui:VisualElement name="content" picking-mode="Ignore" style="flex-grow: 1; flex-direction: row;">
+        <ui:VisualElement name="Black" picking-mode="Ignore" class="blackPart" />
+        <ui:VisualElement name="Gradient" picking-mode="Ignore" class="gredientPart" />
+    </ui:VisualElement>
+</ui:UXML>

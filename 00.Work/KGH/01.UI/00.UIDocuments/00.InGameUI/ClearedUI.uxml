@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/00.Work/KGH/01.UI/02.StyleSheet/ClearedStyle.uss?fileID=7433441132597879392&amp;guid=be512f2e027c03942adf7b16666569a4&amp;type=3#ClearedStyle" />
+    <ui:VisualElement name="Contents" picking-mode="Ignore" style="flex-grow: 1; padding-top: 2.5%; padding-right: 2.5%; padding-bottom: 2.5%; padding-left: 2.5%;">
+        <ui:Label tabindex="-1" text="000 격파" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ClearedLabel" picking-mode="Ignore" class="clearLabel" />
+    </ui:VisualElement>
+</ui:UXML>

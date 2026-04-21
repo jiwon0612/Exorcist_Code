@@ -1,0 +1,21 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="BossHealth" src="project://database/Assets/00.Work/KGH/01.UI/00.UIDocuments/00.InGameUI/BossHealth.uxml?fileID=9197481963319205126&amp;guid=977a724b59c7990438aa598e87860f75&amp;type=3#BossHealth" />
+    <ui:Template name="PlayerStateUI" src="project://database/Assets/00.Work/KGH/01.UI/00.UIDocuments/00.InGameUI/PlayerStateUI.uxml?fileID=9197481963319205126&amp;guid=3be420bd9a84d344aa4603153e58fa77&amp;type=3#PlayerStateUI" />
+    <Style src="project://database/Assets/00.Work/KGH/01.UI/02.StyleSheet/InGameStyle.uss?fileID=7433441132597879392&amp;guid=db46a7ed2af99b647a4473e464d8aca8&amp;type=3#InGameStyle" />
+    <ui:VisualElement name="Contents" picking-mode="Ignore" class="contents" style="flex-grow: 1;">
+        <ui:VisualElement picking-mode="Ignore" name="UpperPart" style="flex-grow: 1; flex-direction: row; height: 236px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; align-items: flex-start; align-self: auto;">
+            <ui:Instance template="BossHealth" name="BossHealth" picking-mode="Ignore" style="flex-grow: 1; margin-top: 0; margin-right: 10%; margin-bottom: 0; margin-left: 10%; padding-top: 0; padding-right: 10%; padding-bottom: 1%; padding-left: 10%; height: 80%; justify-content: center;" />
+        </ui:VisualElement>
+        <ui:VisualElement picking-mode="Ignore" name="MiddlePart" style="flex-grow: 1; height: 58%;" />
+        <ui:VisualElement name="LowerPart" picking-mode="Ignore" style="flex-grow: 1; flex-direction: row; height: 23.5%; align-items: center;">
+            <ui:VisualElement style="flex-grow: 1; height: 100%; flex-direction: row;">
+                <ui:ProgressBar value="100" name="HealthFollower" style="position: absolute; top: 148px; left: 162px; width: 537px;" />
+                <ui:Instance template="PlayerStateUI" name="PlayerStateUI" style="align-items: flex-start; justify-content: center; align-self: center; width: 57%; height: 110%; margin-left: 3%;">
+                    <AttributeOverrides element-name="HPProgressBar" value="100" />
+                    <AttributeOverrides element-name="radial-fill-element" value="0" />
+                </ui:Instance>
+            </ui:VisualElement>
+            <ui:VisualElement name="VisualElement" style="flex-grow: 1; height: 100%;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

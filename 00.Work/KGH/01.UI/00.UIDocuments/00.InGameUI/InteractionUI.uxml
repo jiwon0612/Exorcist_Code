@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/00.Work/KGH/01.UI/02.StyleSheet/InteractionStyle.uss?fileID=7433441132597879392&amp;guid=c3ef30aeea8a6894c80945475ca31290&amp;type=3#InteractionStyle" />
+    <ui:VisualElement name="Contents" picking-mode="Ignore" class="show" style="flex-grow: 1; justify-content: flex-end; padding-top: 5%; padding-right: 5%; padding-bottom: 5%; padding-left: 5%;">
+        <ui:Label tabindex="-1" text="F키를 눌러 상호작용" parse-escape-sequences="true" display-tooltip-when-elided="true" picking-mode="Ignore" name="InteractionLabel" class="label" />
+    </ui:VisualElement>
+</ui:UXML>
